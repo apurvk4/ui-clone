@@ -131,6 +131,12 @@ b {
   scrollbar-width: thin;
   scrollbar-color: #34a5ab;
 }
+*::-webkit-scrollbar {
+  width: 7px;
+}
+*::-webkit-scrollbar-thumb{
+  background: #2e9297;
+}
 .bg-default {
   background-color: #edfffe;
 }
